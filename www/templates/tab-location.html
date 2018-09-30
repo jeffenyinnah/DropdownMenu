@@ -1,0 +1,23 @@
+<ion-view view-title="Location" ng-controller="LocationCtrl" >
+  <ion-content class="padding">
+    <h4>Location</h4>
+
+    <div class="list" id="list1" >
+           <h4>What is your Route?</h4>
+          <div>
+                <select class="custom-select">
+                      <option ng-repeat ="route in routes" ng-click="busStop(busstop.id)">{{route.name}}</option>
+                      
+                </select>
+
+          </div>
+          <br>
+          <button class="button button-calm button-medium"  >Find</button>
+      </div>
+    
+
+
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,27 @@
+
+	 [
+		{
+			"id" : "01",
+			"name": "Estacao Central - Costa do Sol"
+		},
+		{
+			"id" : "02",
+			"name": "Estacao Central - Expresso C do Sol"
+		},
+		{
+			"id" : "03",
+			"name": "Estacao Central - Museu"
+		},
+		{
+			"id" : "04",
+			"name": "Estacao Central - OMM"
+		},
+		{
+			"id" : "05",
+			"name": "Estacao Central - Standard Bank"
+		},
+		{
+			"id" : "06",
+			"name": "Estacao Central - Praca Dos Herois"
+		}
+	]

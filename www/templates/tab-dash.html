@@ -1,14 +1,41 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="METRO APP">
   <ion-content class="padding">
-    <h2>Welcome to Ionic</h2>
-    <p>
-    This is the Ionic starter for tabs-based apps. For other starters and ready-made templates, check out the <a href="http://market.ionic.io/starters" target="_blank" rel="noopener">Ionic Market</a>.
-    </p>
-    <p>
-      To edit the content of each tab, edit the corresponding template file in <code>www/templates/</code>. This template is <code>www/templates/tab-dash.html</code>
-    </p>
-    <p>
-    If you need help with your app, join the Ionic Community on the <a href="http://forum.ionicframework.com" target="_blank" rel="noopener">Ionic Forum</a>. Make sure to <a href="http://twitter.com/ionicframework" target="_blank" rel="noopener">follow us</a> on Twitter to get important updates and announcements for Ionic developers.
-    </p>
+    <h2 class="align">Welcome to Metro App</h2>
+    <div class="container" ng-controller="MyCtrl">
+     <h4>Select a Destination and then Bus stop:</h4>
+    <form name="myForm">
+        <label class="item item-input">
+          <span class="input-label">Destination?</span>
+          <select ng-model="item.route" ng-change="getBusstopNames(item.route)">
+            <option value=''>Select</option>
+            <option ng-repeat="route in routeNames" value="{{ route }} ">{{route}}</option>
+          </select>
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label">Bus Stop?</span>
+          <select ng-model="item.busstop"
+                  ng-change="getModelNames(item.route, item.busstop)"
+                  ng-disabled="!item.route">
+            <option value=''>Select</option>
+            <option ng-repeat="busstop in busstopNames" value="{{ busstop }} ">{{busstop}}</option>
+          </select>
+        </label>
+
+        <!--  <label class="item item-input">
+          <span class="input-label">Model</span>
+          <select ng-model="item.model"
+                  ng-disabled="!item.size">
+            <option value=''>Select</option>
+            <option ng-repeat="model in modelNames" value="{{ model }} ">{{model}}</option>
+          </select>
+        
+        </label> -->
+        <button class="button button-full button-calm" ng-click="sendTo()">Verify</button>
+      </form>
+    </div>
+    
+
+
   </ion-content>
 </ion-view>

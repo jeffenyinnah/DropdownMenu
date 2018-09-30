@@ -47,4 +47,14 @@ angular.module('starter.services', [])
       return null;
     }
   };
+})
+
+.service('dataService', function($http) {
+  this.getData = function(callback) {
+    $http.get('/js/bus.json')
+  .then(callback)
+  } 
+
 });
+
+
