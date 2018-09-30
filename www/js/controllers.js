@@ -90,8 +90,34 @@ angular.module('starter.controllers', [])
       "Icor": ["Icor"],
       "TDM": ["TDM"]
     },
-  }
-;
+
+    "Estacao central - Standard Bank": {
+      "Correios": ["Correios"],
+      "33": ["33"],
+      "Mcel": ["Mcel"],
+      "JAT 1": ["JAT 1"],
+      "BCI": ["BCI"],
+      "Aguas": ["Aguas"],
+      "Fortaleza": ["Fortaleza"]
+
+    },
+
+    "Estacao central - Praca Dos Herois": {
+      "Ministerio da Justica": ["Ministerio da Justica"],
+      "Polana Shopping": ["Polana Shopping"],
+      "Barclays": ["Barclays"],
+      "Cinema Xenon": ["Cinema Xenon"],
+      "Bombas Total": ["Bombas Total"],
+      "Destacamento Femenino": ["Destacamento Femenino"],
+      "UEM": ["UEM"],
+      "Cafe Sol": ["Cafe Sol"],
+      "BIM": ["BIM"],
+      "Soveste": ["Soveste"],
+      "Ronil": ["Ronil"],
+      "Triunfo": ["Triunfo"]
+
+    }
+  };
   // dataService.getData(function(response) {
   //   // body...
   //   // console.log(response.data);
