@@ -1,82 +1,70 @@
-	
+{
+    "Estacao Central - Costa do Sol": {
+      "Ministerio da Justica": ["Ministerio da Justica"],
+      "Polana Shopping": ["Polana Shopping"],
+      "Barclays": ["Barclays"],
+      "Cinema Xenon": ["Cinema Xenon"],
+      "Bombas Total": ["Bombas Total"],
+      "Destacamento Femenino": ["Destacamento Femenino"],
+      "Centro de Conferencias": ["Centro de Conferencias"],
+      "Maritimo": ["Maritimo"],
+      "Baia Mall": ["Baia Mall"],
+      "Mercado do Peixe": ["Mercado do Peixe"],
+      "Baia Mall": ["Baia Mall"],
+      "Triunfo": ["Triunfo"]
+    },
+    "Estacao Central - Expresso C do Sol": {
+      "Naval": ["Naval"],
+      "Southern Sun": ["Southern Sun"],
+      "Maritimo": ["Maritimo"],
+      "Baia Mall": ["Baia Mall"],
+      "Mercado do Peixe": ["Mercado do Peixe"],
+      "Triunfo": ["Triunfo"]
+    },
+    "Estacao central - Museu": {
+      "Pandora": ["Pandora"],
+      "HCM": ["HCM"],
+      "Oftalmologia": ["Oftalmologia"],
+      "Milano": ["Milano"],
+      "Cemiterio": ["Cemiterio"]
+    },
+    "Estacao central - OMM": {
+      "Muncipio": ["Muncipio"],
+      "Ministerio do Trabalho": ["Ministerio do Trabalho"],
+      "Ronil": ["Ronil"],
+      "Banco Unico": ["Banco Unico"],
+      "Marien Ngouabi": ["Marien Ngouabi"],
+      "Capuchinho": ["Capuchinho"],
+      "PH7 Coop": ["PH7 Coop"],
+      "OMM": ["OMM"],
+      "Icor": ["Icor"],
+      "TDM": ["TDM"]
+    },
 
-	{
+    "Estacao central - Standard Bank": {
+      "Correios": ["Correios"],
+      "33": ["33"],
+      "Mcel": ["Mcel"],
+      "JAT 1": ["JAT 1"],
+      "BCI": ["BCI"],
+      "Aguas": ["Aguas"],
+      "Fortaleza": ["Fortaleza"]
 
-		"Estacao Central - Costa do Sol": {
-		  "Ministerio da Justica": ["1"],
-		  "Polana Shopping": ["2"],
-		  "Barclays": ["3"],
-		  "Cinema Xenon": ["4"],
-		  "Bombas Total": ["5"],
-		  "Destacamento Femenino": ["6"],
-		  "Centro de Conferencias": ["7"],
-		  "Maritimo": ["8"],
-		  "Baia Mall": ["9"],
-		  "Mercado do Peixe": ["10"],
-		  "Baia Mall": ["11"],
-		  "Triunfo": ["12"]
+    },
 
-		},
+    "Estacao central - Praca Dos Herois": {
+      "Ministerio da Justica": ["Ministerio da Justica"],
+      "Polana Shopping": ["Polana Shopping"],
+      "Barclays": ["Barclays"],
+      "Cinema Xenon": ["Cinema Xenon"],
+      "Bombas Total": ["Bombas Total"],
+      "Destacamento Femenino": ["Destacamento Femenino"],
+      "UEM": ["UEM"],
+      "Cafe Sol": ["Cafe Sol"],
+      "BIM": ["BIM"],
+      "Soveste": ["Soveste"],
+      "Ronil": ["Ronil"],
+      "Triunfo": ["Triunfo"]
 
-		"Estacao Central - Expresso C do Sol": {
-		  "Naval": ["1"],
-		  "Southern Su": ["2"],
-		  "Maritimo": ["3"],
-		  "Baia Mall": ["4"],
-		  "Mercado do Peixe": ["5"],
-		  "Triunfo": ["6"]
-		},
-
-		"Estacao central - Museu": {
-		  "Pandora": ["1"],
-		  "HCM": ["2"],
-		  "Oftalmologia": ["3"],
-		  "Milano": ["4"],
-		  "Cemiterio": ["5"]
-
-		},
-
-		"Estacao central - OMM": {
-		  "Muncipio": ["1"],
-		  "Ministerio do Trabalho": ["2"],
-		  "Ronil": ["3"],
-		  "Banco Unico": ["4"],
-		  "Marien Ngouabi": ["5"],
-		  "Capuchinho": ["6"],
-		  "PH7 Coop": ["7"],
-		  "OMM": ["8"],
-		  "Icor": ["9"],
-		  "TDM": ["10"]
-
-		},
-
-		"Estacao central - Standard Bank": {
-		  "Correios": ["1"],
-		  "33": ["2"],
-		  "Mcel": ["3"],
-		  "JAT 1": ["4"],
-		  "BCI": ["5"],
-		  "Aguas": ["6"],
-		  "Fortaleza": ["7"]
-
-		},
-
-		"Estacao central - Praca Dos Herois": {
-		  "Ministerio da Justica": ["1"],
-		  "Polana Shopping": ["2"],
-		  "Barclays": ["3"],
-		  "Cinema Xenon": ["4"],
-		  "Bombas Total": ["5"],
-		  "Destacamento Femenino": ["6"],
-		  "UEM": ["7"],
-		  "Cafe Sol": ["8"],
-		  "BIM": ["9"],
-		  "Soveste": ["10"],
-		  "Ronil": ["11"],
-		  "Triunfo": ["12"]
-
-		}
-	}
-	
-
-
+    }
+}

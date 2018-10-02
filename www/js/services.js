@@ -47,26 +47,7 @@ angular.module('starter.services', [])
       return null;
     }
   };
-})
-
-.factory('dataService', dataService) 
-
-dataService.$inject = ['$http','$q'];
-
-function dataService($http) {
-  return {
-    getData : getData 
-  };
-
-   function getData($q) {
-      return $http.get('/js/bus.json')
-        .then(function(response) {
-          return $q.defer(response.data);
-        }).catch(function(error) {
-          console.log(error);
-        });
-    }
-}
+});
 
 
    
